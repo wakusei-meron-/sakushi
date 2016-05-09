@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="oppel_kuntViewController">
+            <connections>
+                <outlet property="View9_1" destination="1" id="16"/>
+                <outlet property="View9_2" destination="8" id="14"/>
+                <outlet property="view" destination="1" id="17"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Oppel-Kundt_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="3">
+                    <rect key="frame" x="67" y="154" width="240" height="65"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="A                  B                  C" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                    <rect key="frame" x="78" y="210" width="218" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="AB間とBC間の距離が等しくなるよに線を引いておきます" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                    <rect key="frame" x="47" y="296" width="280" height="59"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="59" id="f7C-RD-9tK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="AB間だけ何本か線を書いてみると…" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="6">
+                    <rect key="frame" x="47" y="373" width="280" height="51"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="Ocm-oD-MLd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                    <rect key="frame" x="255" y="476" width="72" height="37"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="bK8-BF-KGN"/>
+                        <constraint firstAttribute="height" constant="37" id="xgj-fU-Kmg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="次へ">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="next9" destination="-1" eventType="touchUpInside" id="18"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7" firstAttribute="trailing" secondItem="6" secondAttribute="trailing" id="54v-sd-z5t"/>
+                <constraint firstItem="4" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="78" id="6Rk-hh-csV"/>
+                <constraint firstItem="4" firstAttribute="centerX" secondItem="5" secondAttribute="centerX" id="8Lm-Un-2kf"/>
+                <constraint firstItem="5" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="Bby-rY-L0p"/>
+                <constraint firstItem="3" firstAttribute="top" secondItem="1" secondAttribute="top" constant="154" id="GMN-Y5-zg2"/>
+                <constraint firstItem="6" firstAttribute="top" secondItem="5" secondAttribute="bottom" constant="18" id="JOj-qf-5pc"/>
+                <constraint firstItem="5" firstAttribute="top" secondItem="3" secondAttribute="bottom" constant="77" id="Jcu-Dl-ndp"/>
+                <constraint firstItem="5" firstAttribute="trailing" secondItem="6" secondAttribute="trailing" id="L2i-Wi-FB2"/>
+                <constraint firstItem="5" firstAttribute="top" secondItem="4" secondAttribute="bottom" constant="65" id="V7F-ES-w8k"/>
+                <constraint firstItem="6" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="k80-8E-VgZ"/>
+                <constraint firstItem="7" firstAttribute="top" secondItem="6" secondAttribute="bottom" constant="52" id="kQe-Us-fVI"/>
+                <constraint firstItem="5" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="47" id="tOE-Ei-RJt"/>
+                <constraint firstItem="4" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="voN-nh-YIe"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+        <view contentMode="scaleToFill" id="8">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Oppel-Kundt_figure.png" translatesAutoresizingMaskIntoConstraints="NO" id="9">
+                    <rect key="frame" x="68" y="154" width="240" height="65"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="A                  B                  C" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="10">
+                    <rect key="frame" x="79" y="210" width="217" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="AB間とBC間の距離を比べるとAB間の方が長く見えます" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="11">
+                    <rect key="frame" x="48" y="295" width="280" height="54"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="JB7-Ii-bOM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="これをオッペル・クント錯視といいます" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="12">
+                    <rect key="frame" x="33" y="387" width="309" height="45"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="lxm-kU-dkr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13">
+                    <rect key="frame" x="48" y="476" width="72" height="37"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="6SV-hF-b5c"/>
+                        <constraint firstAttribute="width" constant="72" id="EYY-1G-hYP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="前へ">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="back9" destination="-1" eventType="touchUpInside" id="15"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9" firstAttribute="top" secondItem="8" secondAttribute="top" constant="154" id="3Gl-9s-NVG"/>
+                <constraint firstItem="11" firstAttribute="leading" secondItem="8" secondAttribute="leading" constant="48" id="92T-6q-Rhm"/>
+                <constraint firstItem="10" firstAttribute="leading" secondItem="8" secondAttribute="leading" constant="79" id="ANg-sV-ry8"/>
+                <constraint firstItem="13" firstAttribute="top" secondItem="12" secondAttribute="bottom" constant="44" id="WXQ-4g-FEA"/>
+                <constraint firstItem="11" firstAttribute="centerX" secondItem="8" secondAttribute="centerX" id="Xr2-jC-IHT"/>
+                <constraint firstItem="12" firstAttribute="top" secondItem="11" secondAttribute="bottom" constant="38" id="Yyp-vL-lbB"/>
+                <constraint firstItem="13" firstAttribute="leading" secondItem="11" secondAttribute="leading" id="efH-8L-Rii"/>
+                <constraint firstItem="11" firstAttribute="centerX" secondItem="10" secondAttribute="centerX" id="i5V-mw-8uZ"/>
+                <constraint firstItem="11" firstAttribute="centerX" secondItem="12" secondAttribute="centerX" id="pgj-EX-Tqw"/>
+                <constraint firstItem="11" firstAttribute="top" secondItem="9" secondAttribute="bottom" constant="76" id="r0L-cb-6nb"/>
+                <constraint firstItem="12" firstAttribute="leading" secondItem="8" secondAttribute="leading" constant="33" id="tfb-Lm-CJJ"/>
+                <constraint firstItem="9" firstAttribute="centerX" secondItem="10" secondAttribute="centerX" id="yi0-99-75m"/>
+                <constraint firstItem="11" firstAttribute="top" secondItem="10" secondAttribute="bottom" constant="64" id="z1m-1a-wwY"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Oppel-Kundt_1.png" width="240" height="65"/>
+        <image name="Oppel-Kundt_figure.png" width="240" height="65"/>
+    </resources>
+</document>

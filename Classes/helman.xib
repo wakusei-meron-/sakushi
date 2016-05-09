@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="helmanViewController">
+            <connections>
+                <outlet property="View12_1" destination="1" id="14"/>
+                <outlet property="View12_2" destination="8" id="16"/>
+                <outlet property="view" destination="1" id="13"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="helman_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                    <rect key="frame" x="147" y="146" width="80" height="80"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                    <rect key="frame" x="255" y="485" width="72" height="37"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="Jnw-u5-hmF"/>
+                        <constraint firstAttribute="width" constant="72" id="uFF-VI-ZAS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="次へ">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="next12" destination="-1" eventType="touchUpInside" id="15"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="上に黒い四角形が４つあります" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="6">
+                    <rect key="frame" x="47" y="349" width="280" height="40"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="FvI-qi-XyR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="この四角形をいくつか規則的に並べてみると…" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                    <rect key="frame" x="47" y="397" width="280" height="51"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="grG-45-xkz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5" secondAttribute="bottom" constant="145" id="Fve-RN-W1o"/>
+                <constraint firstItem="4" firstAttribute="centerX" secondItem="6" secondAttribute="centerX" id="NQp-jj-HQo"/>
+                <constraint firstItem="5" firstAttribute="top" secondItem="7" secondAttribute="bottom" constant="37" id="Ozg-mB-Qm5"/>
+                <constraint firstItem="6" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="47" id="PEc-d9-n1j"/>
+                <constraint firstItem="6" firstAttribute="trailing" secondItem="7" secondAttribute="trailing" id="SmS-DC-pRS"/>
+                <constraint firstItem="7" firstAttribute="top" secondItem="6" secondAttribute="bottom" constant="8" symbolic="YES" id="a20-6f-08r"/>
+                <constraint firstItem="4" firstAttribute="top" secondItem="1" secondAttribute="top" constant="146" id="fLG-dN-FbL"/>
+                <constraint firstItem="6" firstAttribute="leading" secondItem="7" secondAttribute="leading" id="flE-dA-vhZ"/>
+                <constraint firstItem="7" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="iJX-lh-cea"/>
+                <constraint firstItem="7" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" id="r4m-LA-7e6"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+        <view contentMode="scaleToFill" id="8">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Hermanngrid.png" translatesAutoresizingMaskIntoConstraints="NO" id="9">
+                    <rect key="frame" x="40" y="141" width="294" height="190"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="190" id="mES-ry-QtE"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10">
+                    <rect key="frame" x="47" y="490" width="72" height="37"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="Jl2-4g-XqZ"/>
+                        <constraint firstAttribute="width" constant="72" id="YRB-zn-EW1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                    <state key="normal" title="前へ">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="back12" destination="-1" eventType="touchUpInside" id="17"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="白い格子が交差している部分が少し暗く見えるでしょ？？" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="11">
+                    <rect key="frame" x="47" y="357" width="280" height="58"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="f4t-jE-JfE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="これをヘルマン格子錯視といいます" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="12">
+                    <rect key="frame" x="47" y="423" width="280" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="10" firstAttribute="top" secondItem="12" secondAttribute="bottom" constant="46" id="0cv-ZX-0Jv"/>
+                <constraint firstItem="11" firstAttribute="leading" secondItem="8" secondAttribute="leading" constant="47" id="Kpq-wS-M0C"/>
+                <constraint firstItem="11" firstAttribute="leading" secondItem="12" secondAttribute="leading" id="ZYL-jt-j0M"/>
+                <constraint firstItem="11" firstAttribute="centerX" secondItem="9" secondAttribute="centerX" id="lhd-Bt-hpp"/>
+                <constraint firstItem="12" firstAttribute="trailing" secondItem="11" secondAttribute="trailing" id="nfr-dr-crd"/>
+                <constraint firstItem="9" firstAttribute="top" secondItem="8" secondAttribute="top" constant="141" id="qK3-zF-uVr"/>
+                <constraint firstItem="12" firstAttribute="top" secondItem="11" secondAttribute="bottom" constant="8" symbolic="YES" id="tCN-mX-PAZ"/>
+                <constraint firstItem="9" firstAttribute="centerX" secondItem="8" secondAttribute="centerX" id="vBJ-fV-5mE"/>
+                <constraint firstItem="10" firstAttribute="leading" secondItem="12" secondAttribute="leading" id="wOw-9c-0In"/>
+                <constraint firstItem="11" firstAttribute="top" secondItem="9" secondAttribute="bottom" constant="26" id="whe-1W-LUG"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Hermanngrid.png" width="294" height="293"/>
+        <image name="helman_1.png" width="80" height="80"/>
+    </resources>
+</document>

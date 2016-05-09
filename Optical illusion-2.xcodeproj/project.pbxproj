@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		3714FB1F1322879500D30FF1 /* OpticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714FB1E1322879500D30FF1 /* OpticalViewController.m */; };
+		3714FB5A1322919600D30FF1 /* helmholtz.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB591322919600D30FF1 /* helmholtz.xib */; };
+		3714FB5F132291CD00D30FF1 /* helmholtzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714FB5E132291CD00D30FF1 /* helmholtzViewController.m */; };
+		3714FB75132299CF00D30FF1 /* helmholtz_change_color のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB72132299CF00D30FF1 /* helmholtz_change_color のコピー.png */; };
+		3714FB76132299CF00D30FF1 /* helmholtz_kakudo のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB73132299CF00D30FF1 /* helmholtz_kakudo のコピー.png */; };
+		3714FB77132299CF00D30FF1 /* helmholtz_mae のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB74132299CF00D30FF1 /* helmholtz_mae のコピー.png */; };
+		3714FB8113229A4400D30FF1 /* pokkendol-1 のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB7C13229A4400D30FF1 /* pokkendol-1 のコピー.png */; };
+		3714FB8213229A4400D30FF1 /* pokkendol-2 のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB7D13229A4400D30FF1 /* pokkendol-2 のコピー.png */; };
+		3714FB8313229A4400D30FF1 /* pokkendol-tate のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB7E13229A4400D30FF1 /* pokkendol-tate のコピー.png */; };
+		3714FB8413229A4400D30FF1 /* white のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB7F13229A4400D30FF1 /* white のコピー.png */; };
+		3714FB8513229A4400D30FF1 /* white_2 のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB8013229A4400D30FF1 /* white_2 のコピー.png */; };
+		3714FB8B13229A7400D30FF1 /* heling のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB8713229A7400D30FF1 /* heling のコピー.png */; };
+		3714FB8C13229A7400D30FF1 /* images-2 のコピー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB8813229A7400D30FF1 /* images-2 のコピー.jpg */; };
+		3714FB8D13229A7400D30FF1 /* pararel_line のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB8913229A7400D30FF1 /* pararel_line のコピー.png */; };
+		3714FB8E13229A7400D30FF1 /* therunaer のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 3714FB8A13229A7400D30FF1 /* therunaer のコピー.png */; };
+		3714FBA31322A77E00D30FF1 /* poggendolf.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3714FBA21322A77E00D30FF1 /* poggendolf.xib */; };
+		3714FBA81322A79E00D30FF1 /* pokkendolfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714FBA71322A79E00D30FF1 /* pokkendolfViewController.m */; };
+		3714FBDD1322B2DA00D30FF1 /* Parallel_line.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3714FBDC1322B2DA00D30FF1 /* Parallel_line.xib */; };
+		3714FBE21322B30600D30FF1 /* ParallellineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714FBE11322B30600D30FF1 /* ParallellineViewController.m */; };
+		3714FBF41322BD5C00D30FF1 /* jastrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3714FBF31322BD5C00D30FF1 /* jastrowViewController.m */; };
+		3714FBF81322BD6B00D30FF1 /* jastrow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3714FBF71322BD6B00D30FF1 /* jastrow.xib */; };
+		3718452D1326342000886EDA /* Beginning.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3718452C1326342000886EDA /* Beginning.xib */; };
+		37184538132634D500886EDA /* BeginningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37184537132634D500886EDA /* BeginningViewController.m */; };
+		372221AC1331068E006C2CAA /* 240px-Mond-vergleich.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 372221AA1331068E006C2CAA /* 240px-Mond-vergleich.svg.png */; };
+		372221AD1331068E006C2CAA /* epilong.png in Resources */ = {isa = PBXBuildFile; fileRef = 372221AB1331068E006C2CAA /* epilong.png */; };
+		372221B3133106DE006C2CAA /* epilongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372221B2133106DE006C2CAA /* epilongViewController.m */; };
+		372221B9133107B7006C2CAA /* epilong.xib in Resources */ = {isa = PBXBuildFile; fileRef = 372221B8133107B7006C2CAA /* epilong.xib */; };
+		37246F5113364F5E007B2B4B /* yuudou_sen.png in Resources */ = {isa = PBXBuildFile; fileRef = 37246F4F13364F5E007B2B4B /* yuudou_sen.png */; };
+		37246F5213364F5E007B2B4B /* yuudou.png in Resources */ = {isa = PBXBuildFile; fileRef = 37246F5013364F5E007B2B4B /* yuudou.png */; };
+		37246F5713364FE0007B2B4B /* yuudou.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37246F5613364FE0007B2B4B /* yuudou.xib */; };
+		37246F5A1336506D007B2B4B /* yuudouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37246F591336506D007B2B4B /* yuudouViewController.m */; };
+		373C309B1334F377004F0254 /* fickViewContoroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 373C309A1334F377004F0254 /* fickViewContoroller.m */; };
+		373C309F1334F3A1004F0254 /* fick.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373C309E1334F3A1004F0254 /* fick.xib */; };
+		373C30A41334F67F004F0254 /* fick_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = 373C30A21334F67F004F0254 /* fick_upper.png */; };
+		373C310713350388004F0254 /* oppel_kunt.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373C310613350388004F0254 /* oppel_kunt.xib */; };
+		373C310A133503A9004F0254 /* oppel_kuntViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373C3109133503A9004F0254 /* oppel_kuntViewController.m */; };
+		373C310E133503DE004F0254 /* Oppel-Kundt_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 373C310C133503DE004F0254 /* Oppel-Kundt_1.png */; };
+		373C310F133503DE004F0254 /* Oppel-Kundt_figure.png in Resources */ = {isa = PBXBuildFile; fileRef = 373C310D133503DE004F0254 /* Oppel-Kundt_figure.png */; };
+		373C312113350D6D004F0254 /* dekboafViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373C312013350D6D004F0254 /* dekboafViewController.m */; };
+		373C312313350D7E004F0254 /* delboaf.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373C312213350D7E004F0254 /* delboaf.xib */; };
+		373C312613350D90004F0254 /* delboof_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 373C312413350D90004F0254 /* delboof_left.png */; };
+		373C312713350D90004F0254 /* delboof_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 373C312513350D90004F0254 /* delboof_right.png */; };
+		373C313713351269004F0254 /* delboaf_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 373C313613351269004F0254 /* delboaf_2.png */; };
+		375C82681322BF7400104D15 /* jastrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 375C82671322BF7400104D15 /* jastrow.png */; };
+		375F17EE1350265500EDC168 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 375F17ED1350265500EDC168 /* Localizable.strings */; };
+		375F17F01350267B00EDC168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 375F17EF1350267B00EDC168 /* InfoPlist.strings */; };
+		378230081362A35100DB2E29 /* hokanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378230061362A35100DB2E29 /* hokanViewController.m */; };
+		378230091362A35100DB2E29 /* hokanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 378230071362A35100DB2E29 /* hokanViewController.xib */; };
+		3784FC45133274D00097076D /* ponzo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3784FC44133274D00097076D /* ponzo.xib */; };
+		3784FC48133274E70097076D /* ponzoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3784FC47133274E70097076D /* ponzoViewController.m */; };
+		3784FC51133275400097076D /* ponzo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3784FC4F133275400097076D /* ponzo.png */; };
+		3784FC52133275400097076D /* ポンゾ錯視.png in Resources */ = {isa = PBXBuildFile; fileRef = 3784FC50133275400097076D /* ポンゾ錯視.png */; };
+		3784FC54133276E80097076D /* ポンゾ錯視_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3784FC53133276E80097076D /* ポンゾ錯視_2.png */; };
+		378C29D713230BA1005B0D08 /* jastrow_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 378C29D613230BA1005B0D08 /* jastrow_2.png */; };
+		3792D2C01341C2AC00CCD49A /* helmanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792D2BF1341C2AC00CCD49A /* helmanViewController.m */; };
+		3792D2C21341C2BE00CCD49A /* helman.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3792D2C11341C2BE00CCD49A /* helman.xib */; };
+		3792D2C61341C3A300CCD49A /* helman_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3792D2C41341C3A300CCD49A /* helman_1.png */; };
+		3792D2C71341C3A300CCD49A /* Hermanngrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 3792D2C51341C3A300CCD49A /* Hermanngrid.png */; };
+		379FE23113607C9E00C00C1E /* trosclerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379FE22F13607C9E00C00C1E /* trosclerViewController.m */; };
+		379FE23213607C9E00C00C1E /* trosclerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379FE23013607C9E00C00C1E /* trosclerViewController.xib */; };
+		379FE234136083EF00C00C1E /* トロクスラー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 379FE233136083EF00C00C1E /* トロクスラー.jpg */; };
+		379FE236136089A700C00C1E /* スクリーンショット（2011-04-22 0.48.25）.png in Resources */ = {isa = PBXBuildFile; fileRef = 379FE235136089A700C00C1E /* スクリーンショット（2011-04-22 0.48.25）.png */; };
+		37A64F861350AB960062CE6E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A64F851350AB960062CE6E /* Icon.png */; };
+		37A64F881350B4A50062CE6E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A64F871350B4A50062CE6E /* Default.png */; };
+		37A64F8A1350B7230062CE6E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A64F891350B7230062CE6E /* Default@2x.png */; };
+		37A64F8E1350B8710062CE6E /* top_image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A64F8D1350B8710062CE6E /* top_image_2.png */; };
+		37AF115B134F208B00A6DFF0 /* スクリーンショット（2011-04-08 19.51.04）.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AF115A134F208B00A6DFF0 /* スクリーンショット（2011-04-08 19.51.04）.png */; };
+		37AF3093135DE573003C4641 /* yajirushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AF3092135DE572003C4641 /* yajirushi.png */; };
+		37D0BF011326500B00692F8A /* myular_liyar_lower.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D0BEFF1326500B00692F8A /* myular_liyar_lower.png */; };
+		37D0BF021326500B00692F8A /* myular_liyar_upper.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D0BF001326500B00692F8A /* myular_liyar_upper.png */; };
+		37D0BF071326540C00692F8A /* myular_liyar_sen.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D0BF041326540C00692F8A /* myular_liyar_sen.png */; };
+		37D0BF081326540C00692F8A /* soto.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D0BF051326540C00692F8A /* soto.png */; };
+		37D0BF091326540C00692F8A /* uti.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D0BF061326540C00692F8A /* uti.png */; };
+		37DCB6D71CDDCF8200FE0D30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DCB6D61CDDCF8200FE0D30 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Optical illusion-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Optical illusion-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* Optical_illusion_2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Optical_illusion_2_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		3714FB1D1322879500D30FF1 /* OpticalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpticalViewController.h; sourceTree = "<group>"; };
+		3714FB1E1322879500D30FF1 /* OpticalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpticalViewController.m; sourceTree = "<group>"; };
+		3714FB591322919600D30FF1 /* helmholtz.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = helmholtz.xib; sourceTree = "<group>"; };
+		3714FB5D132291CD00D30FF1 /* helmholtzViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helmholtzViewController.h; sourceTree = "<group>"; };
+		3714FB5E132291CD00D30FF1 /* helmholtzViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helmholtzViewController.m; sourceTree = "<group>"; };
+		3714FB72132299CF00D30FF1 /* helmholtz_change_color のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "helmholtz_change_color のコピー.png"; path = "Images/ヘルムホルツ/helmholtz_change_color のコピー.png"; sourceTree = "<group>"; };
+		3714FB73132299CF00D30FF1 /* helmholtz_kakudo のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "helmholtz_kakudo のコピー.png"; path = "Images/ヘルムホルツ/helmholtz_kakudo のコピー.png"; sourceTree = "<group>"; };
+		3714FB74132299CF00D30FF1 /* helmholtz_mae のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "helmholtz_mae のコピー.png"; path = "Images/ヘルムホルツ/helmholtz_mae のコピー.png"; sourceTree = "<group>"; };
+		3714FB7C13229A4400D30FF1 /* pokkendol-1 のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pokkendol-1 のコピー.png"; path = "Images/ポッゲンドルフ/pokkendol-1 のコピー.png"; sourceTree = "<group>"; };
+		3714FB7D13229A4400D30FF1 /* pokkendol-2 のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pokkendol-2 のコピー.png"; path = "Images/ポッゲンドルフ/pokkendol-2 のコピー.png"; sourceTree = "<group>"; };
+		3714FB7E13229A4400D30FF1 /* pokkendol-tate のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pokkendol-tate のコピー.png"; path = "Images/ポッゲンドルフ/pokkendol-tate のコピー.png"; sourceTree = "<group>"; };
+		3714FB7F13229A4400D30FF1 /* white のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white のコピー.png"; path = "Images/ポッゲンドルフ/white のコピー.png"; sourceTree = "<group>"; };
+		3714FB8013229A4400D30FF1 /* white_2 のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white_2 のコピー.png"; path = "Images/ポッゲンドルフ/white_2 のコピー.png"; sourceTree = "<group>"; };
+		3714FB8713229A7400D30FF1 /* heling のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heling のコピー.png"; path = "Images/Parallel lines/heling のコピー.png"; sourceTree = "<group>"; };
+		3714FB8813229A7400D30FF1 /* images-2 のコピー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-2 のコピー.jpg"; path = "Images/Parallel lines/images-2 のコピー.jpg"; sourceTree = "<group>"; };
+		3714FB8913229A7400D30FF1 /* pararel_line のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pararel_line のコピー.png"; path = "Images/Parallel lines/pararel_line のコピー.png"; sourceTree = "<group>"; };
+		3714FB8A13229A7400D30FF1 /* therunaer のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "therunaer のコピー.png"; path = "Images/Parallel lines/therunaer のコピー.png"; sourceTree = "<group>"; };
+		3714FBA21322A77E00D30FF1 /* poggendolf.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = poggendolf.xib; sourceTree = "<group>"; };
+		3714FBA61322A79E00D30FF1 /* pokkendolfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pokkendolfViewController.h; sourceTree = "<group>"; };
+		3714FBA71322A79E00D30FF1 /* pokkendolfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pokkendolfViewController.m; sourceTree = "<group>"; };
+		3714FBDC1322B2DA00D30FF1 /* Parallel_line.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Parallel_line.xib; sourceTree = "<group>"; };
+		3714FBE01322B30600D30FF1 /* ParallellineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallellineViewController.h; sourceTree = "<group>"; };
+		3714FBE11322B30600D30FF1 /* ParallellineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallellineViewController.m; sourceTree = "<group>"; };
+		3714FBF21322BD5C00D30FF1 /* jastrowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jastrowViewController.h; sourceTree = "<group>"; };
+		3714FBF31322BD5C00D30FF1 /* jastrowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jastrowViewController.m; sourceTree = "<group>"; };
+		3714FBF71322BD6B00D30FF1 /* jastrow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = jastrow.xib; sourceTree = "<group>"; };
+		3718452C1326342000886EDA /* Beginning.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Beginning.xib; sourceTree = "<group>"; };
+		37184536132634D500886EDA /* BeginningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeginningViewController.h; sourceTree = "<group>"; };
+		37184537132634D500886EDA /* BeginningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeginningViewController.m; sourceTree = "<group>"; };
+		372221AA1331068E006C2CAA /* 240px-Mond-vergleich.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "240px-Mond-vergleich.svg.png"; path = "Images/エピロング/240px-Mond-vergleich.svg.png"; sourceTree = "<group>"; };
+		372221AB1331068E006C2CAA /* epilong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = epilong.png; path = "Images/エピロング/epilong.png"; sourceTree = "<group>"; };
+		372221B1133106DE006C2CAA /* epilongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = epilongViewController.h; sourceTree = "<group>"; };
+		372221B2133106DE006C2CAA /* epilongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = epilongViewController.m; sourceTree = "<group>"; };
+		372221B8133107B7006C2CAA /* epilong.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = epilong.xib; sourceTree = "<group>"; };
+		37246F4F13364F5E007B2B4B /* yuudou_sen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuudou_sen.png; path = Images/yuudou_sen.png; sourceTree = "<group>"; };
+		37246F5013364F5E007B2B4B /* yuudou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuudou.png; path = Images/yuudou.png; sourceTree = "<group>"; };
+		37246F5613364FE0007B2B4B /* yuudou.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = yuudou.xib; sourceTree = "<group>"; };
+		37246F581336506D007B2B4B /* yuudouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yuudouViewController.h; sourceTree = "<group>"; };
+		37246F591336506D007B2B4B /* yuudouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yuudouViewController.m; sourceTree = "<group>"; };
+		373C30991334F377004F0254 /* fickViewContoroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fickViewContoroller.h; sourceTree = "<group>"; };
+		373C309A1334F377004F0254 /* fickViewContoroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fickViewContoroller.m; sourceTree = "<group>"; };
+		373C309E1334F3A1004F0254 /* fick.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fick.xib; sourceTree = "<group>"; };
+		373C30A21334F67F004F0254 /* fick_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fick_upper.png; path = Images/fick_upper.png; sourceTree = "<group>"; };
+		373C310613350388004F0254 /* oppel_kunt.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = oppel_kunt.xib; sourceTree = "<group>"; };
+		373C3108133503A9004F0254 /* oppel_kuntViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oppel_kuntViewController.h; sourceTree = "<group>"; };
+		373C3109133503A9004F0254 /* oppel_kuntViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oppel_kuntViewController.m; sourceTree = "<group>"; };
+		373C310C133503DE004F0254 /* Oppel-Kundt_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Oppel-Kundt_1.png"; path = "Images/Oppel-Kundt_1.png"; sourceTree = "<group>"; };
+		373C310D133503DE004F0254 /* Oppel-Kundt_figure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Oppel-Kundt_figure.png"; path = "Images/Oppel-Kundt_figure.png"; sourceTree = "<group>"; };
+		373C311F13350D6D004F0254 /* dekboafViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dekboafViewController.h; sourceTree = "<group>"; };
+		373C312013350D6D004F0254 /* dekboafViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dekboafViewController.m; sourceTree = "<group>"; };
+		373C312213350D7E004F0254 /* delboaf.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = delboaf.xib; sourceTree = "<group>"; };
+		373C312413350D90004F0254 /* delboof_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delboof_left.png; path = Images/delboof_left.png; sourceTree = "<group>"; };
+		373C312513350D90004F0254 /* delboof_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delboof_right.png; path = Images/delboof_right.png; sourceTree = "<group>"; };
+		373C313613351269004F0254 /* delboaf_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delboaf_2.png; path = Images/delboaf_2.png; sourceTree = "<group>"; };
+		375C82671322BF7400104D15 /* jastrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jastrow.png; path = "Images/ジャストロー/jastrow.png"; sourceTree = "<group>"; };
+		375F17ED1350265500EDC168 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		375F17EF1350267B00EDC168 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		378230051362A35100DB2E29 /* hokanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hokanViewController.h; sourceTree = "<group>"; };
+		378230061362A35100DB2E29 /* hokanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hokanViewController.m; sourceTree = "<group>"; };
+		378230071362A35100DB2E29 /* hokanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = hokanViewController.xib; sourceTree = "<group>"; };
+		3784FC44133274D00097076D /* ponzo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ponzo.xib; sourceTree = "<group>"; };
+		3784FC46133274E70097076D /* ponzoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ponzoViewController.h; sourceTree = "<group>"; };
+		3784FC47133274E70097076D /* ponzoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ponzoViewController.m; sourceTree = "<group>"; };
+		3784FC4F133275400097076D /* ponzo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ponzo.png; path = "Images/ポンゾ錯視/ponzo.png"; sourceTree = "<group>"; };
+		3784FC50133275400097076D /* ポンゾ錯視.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ポンゾ錯視.png"; path = "Images/ポンゾ錯視/ポンゾ錯視.png"; sourceTree = "<group>"; };
+		3784FC53133276E80097076D /* ポンゾ錯視_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ポンゾ錯視_2.png"; path = "Images/ポンゾ錯視/ポンゾ錯視_2.png"; sourceTree = "<group>"; };
+		378C29D613230BA1005B0D08 /* jastrow_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jastrow_2.png; path = "Images/ジャストロー/jastrow_2.png"; sourceTree = "<group>"; };
+		3792D2BE1341C2AC00CCD49A /* helmanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helmanViewController.h; sourceTree = "<group>"; };
+		3792D2BF1341C2AC00CCD49A /* helmanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helmanViewController.m; sourceTree = "<group>"; };
+		3792D2C11341C2BE00CCD49A /* helman.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = helman.xib; sourceTree = "<group>"; };
+		3792D2C41341C3A300CCD49A /* helman_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = helman_1.png; path = Images/helman_1.png; sourceTree = "<group>"; };
+		3792D2C51341C3A300CCD49A /* Hermanngrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hermanngrid.png; path = Images/Hermanngrid.png; sourceTree = "<group>"; };
+		379FE22E13607C9E00C00C1E /* trosclerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trosclerViewController.h; sourceTree = "<group>"; };
+		379FE22F13607C9E00C00C1E /* trosclerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trosclerViewController.m; sourceTree = "<group>"; };
+		379FE23013607C9E00C00C1E /* trosclerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trosclerViewController.xib; sourceTree = "<group>"; };
+		379FE233136083EF00C00C1E /* トロクスラー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "トロクスラー.jpg"; path = "Images/トロクスラー.jpg"; sourceTree = "<group>"; };
+		379FE235136089A700C00C1E /* スクリーンショット（2011-04-22 0.48.25）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スクリーンショット（2011-04-22 0.48.25）.png"; path = "Images/スクリーンショット（2011-04-22 0.48.25）.png"; sourceTree = "<group>"; };
+		37A64F851350AB960062CE6E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		37A64F871350B4A50062CE6E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
+		37A64F891350B7230062CE6E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Images/Default@2x.png"; sourceTree = "<group>"; };
+		37A64F8D1350B8710062CE6E /* top_image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_image_2.png; sourceTree = "<group>"; };
+		37AF115A134F208B00A6DFF0 /* スクリーンショット（2011-04-08 19.51.04）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "スクリーンショット（2011-04-08 19.51.04）.png"; path = "Images/スクリーンショット（2011-04-08 19.51.04）.png"; sourceTree = "<group>"; };
+		37AF3092135DE572003C4641 /* yajirushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yajirushi.png; path = Images/yajirushi.png; sourceTree = "<group>"; };
+		37D0BEFF1326500B00692F8A /* myular_liyar_lower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myular_liyar_lower.png; path = "Images/はじめに/myular_liyar_lower.png"; sourceTree = "<group>"; };
+		37D0BF001326500B00692F8A /* myular_liyar_upper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myular_liyar_upper.png; path = "Images/はじめに/myular_liyar_upper.png"; sourceTree = "<group>"; };
+		37D0BF041326540C00692F8A /* myular_liyar_sen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myular_liyar_sen.png; path = "Images/はじめに/myular_liyar_sen.png"; sourceTree = "<group>"; };
+		37D0BF051326540C00692F8A /* soto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soto.png; path = "Images/はじめに/soto.png"; sourceTree = "<group>"; };
+		37D0BF061326540C00692F8A /* uti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uti.png; path = "Images/はじめに/uti.png"; sourceTree = "<group>"; };
+		37DCB6D61CDDCF8200FE0D30 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Optical_illusion_2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Optical_illusion_2-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				379FE22D13607C4200C00C1E /* 視覚的補完 */,
+				37822FFF1362A1B500DB2E29 /* トロクスラー効果 */,
+				37246F5313364F74007B2B4B /* 明るさの錯視 */,
+				373C30961334F32F004F0254 /* 形の錯視 */,
+				3714FB1D1322879500D30FF1 /* OpticalViewController.h */,
+				3714FB1E1322879500D30FF1 /* OpticalViewController.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Optical illusion-2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				37A64F8D1350B8710062CE6E /* top_image_2.png */,
+				37A64F851350AB960062CE6E /* Icon.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				37DCB6D61CDDCF8200FE0D30 /* main.m */,
+				28A0AAE50D9B0CCF005BE974 /* Optical_illusion_2_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				375F17F1135026F500EDC168 /* Japan.Iproj */,
+				375F17EA135024AE00EDC168 /* English.Iproj */,
+				3784FC4A133275140097076D /* Image */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Optical_illusion_2-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3714FB4213228FFA00D30FF1 /* ヘルムホルツ */ = {
+			isa = PBXGroup;
+			children = (
+				3714FB591322919600D30FF1 /* helmholtz.xib */,
+				3714FB5D132291CD00D30FF1 /* helmholtzViewController.h */,
+				3714FB5E132291CD00D30FF1 /* helmholtzViewController.m */,
+			);
+			name = "ヘルムホルツ";
+			sourceTree = "<group>";
+		};
+		3714FB7A132299F400D30FF1 /* ヘルムホルツ */ = {
+			isa = PBXGroup;
+			children = (
+				3714FB72132299CF00D30FF1 /* helmholtz_change_color のコピー.png */,
+				3714FB73132299CF00D30FF1 /* helmholtz_kakudo のコピー.png */,
+				3714FB74132299CF00D30FF1 /* helmholtz_mae のコピー.png */,
+			);
+			name = "ヘルムホルツ";
+			sourceTree = "<group>";
+		};
+		3714FB7B13229A2300D30FF1 /* ポッゲンドルフ */ = {
+			isa = PBXGroup;
+			children = (
+				3714FB7C13229A4400D30FF1 /* pokkendol-1 のコピー.png */,
+				3714FB7D13229A4400D30FF1 /* pokkendol-2 のコピー.png */,
+				3714FB7E13229A4400D30FF1 /* pokkendol-tate のコピー.png */,
+				3714FB7F13229A4400D30FF1 /* white のコピー.png */,
+				3714FB8013229A4400D30FF1 /* white_2 のコピー.png */,
+			);
+			name = "ポッゲンドルフ";
+			sourceTree = "<group>";
+		};
+		3714FB8613229A4E00D30FF1 /* Parallel lines */ = {
+			isa = PBXGroup;
+			children = (
+				3714FB8713229A7400D30FF1 /* heling のコピー.png */,
+				3714FB8813229A7400D30FF1 /* images-2 のコピー.jpg */,
+				3714FB8913229A7400D30FF1 /* pararel_line のコピー.png */,
+				3714FB8A13229A7400D30FF1 /* therunaer のコピー.png */,
+			);
+			name = "Parallel lines";
+			sourceTree = "<group>";
+		};
+		3714FB9F1322A75A00D30FF1 /* ポッゲンドルフ */ = {
+			isa = PBXGroup;
+			children = (
+				3714FBA21322A77E00D30FF1 /* poggendolf.xib */,
+				3714FBA61322A79E00D30FF1 /* pokkendolfViewController.h */,
+				3714FBA71322A79E00D30FF1 /* pokkendolfViewController.m */,
+			);
+			name = "ポッゲンドルフ";
+			sourceTree = "<group>";
+		};
+		3714FBD91322B28F00D30FF1 /* Parallel line */ = {
+			isa = PBXGroup;
+			children = (
+				3714FBDC1322B2DA00D30FF1 /* Parallel_line.xib */,
+				3714FBE01322B30600D30FF1 /* ParallellineViewController.h */,
+				3714FBE11322B30600D30FF1 /* ParallellineViewController.m */,
+			);
+			name = "Parallel line";
+			sourceTree = "<group>";
+		};
+		3714FBEF1322BD3800D30FF1 /* ジャストロー */ = {
+			isa = PBXGroup;
+			children = (
+				3714FBF71322BD6B00D30FF1 /* jastrow.xib */,
+				3714FBF21322BD5C00D30FF1 /* jastrowViewController.h */,
+				3714FBF31322BD5C00D30FF1 /* jastrowViewController.m */,
+			);
+			name = "ジャストロー";
+			sourceTree = "<group>";
+		};
+		372221A91331066A006C2CAA /* エピロング */ = {
+			isa = PBXGroup;
+			children = (
+				372221AA1331068E006C2CAA /* 240px-Mond-vergleich.svg.png */,
+				372221AB1331068E006C2CAA /* epilong.png */,
+			);
+			name = "エピロング";
+			sourceTree = "<group>";
+		};
+		372221AE133106BD006C2CAA /* エピロング */ = {
+			isa = PBXGroup;
+			children = (
+				372221B8133107B7006C2CAA /* epilong.xib */,
+				372221B1133106DE006C2CAA /* epilongViewController.h */,
+				372221B2133106DE006C2CAA /* epilongViewController.m */,
+			);
+			name = "エピロング";
+			sourceTree = "<group>";
+		};
+		37246F5313364F74007B2B4B /* 明るさの錯視 */ = {
+			isa = PBXGroup;
+			children = (
+				3792D2BC1341C27900CCD49A /* ヘルマン格子錯視 */,
+				37246F5513364FB9007B2B4B /* 島誘導 */,
+			);
+			name = "明るさの錯視";
+			sourceTree = "<group>";
+		};
+		37246F5513364FB9007B2B4B /* 島誘導 */ = {
+			isa = PBXGroup;
+			children = (
+				37246F5613364FE0007B2B4B /* yuudou.xib */,
+				37246F581336506D007B2B4B /* yuudouViewController.h */,
+				37246F591336506D007B2B4B /* yuudouViewController.m */,
+			);
+			name = "島誘導";
+			sourceTree = "<group>";
+		};
+		373C30961334F32F004F0254 /* 形の錯視 */ = {
+			isa = PBXGroup;
+			children = (
+				373C311E13350D43004F0254 /* デルブーフ錯視 */,
+				373C310413350336004F0254 /* オッペル・クント錯視 */,
+				373C30981334F346004F0254 /* フィック錯視 */,
+				3784FC42133274B40097076D /* ポンゾ錯視 */,
+				372221AE133106BD006C2CAA /* エピロング */,
+				378C2A15132380A1005B0D08 /* はじめに */,
+				3714FBEF1322BD3800D30FF1 /* ジャストロー */,
+				3714FBD91322B28F00D30FF1 /* Parallel line */,
+				3714FB9F1322A75A00D30FF1 /* ポッゲンドルフ */,
+				3714FB4213228FFA00D30FF1 /* ヘルムホルツ */,
+			);
+			name = "形の錯視";
+			sourceTree = "<group>";
+		};
+		373C30981334F346004F0254 /* フィック錯視 */ = {
+			isa = PBXGroup;
+			children = (
+				373C30991334F377004F0254 /* fickViewContoroller.h */,
+				373C309A1334F377004F0254 /* fickViewContoroller.m */,
+				373C309E1334F3A1004F0254 /* fick.xib */,
+			);
+			name = "フィック錯視";
+			sourceTree = "<group>";
+		};
+		373C310413350336004F0254 /* オッペル・クント錯視 */ = {
+			isa = PBXGroup;
+			children = (
+				373C310613350388004F0254 /* oppel_kunt.xib */,
+				373C3108133503A9004F0254 /* oppel_kuntViewController.h */,
+				373C3109133503A9004F0254 /* oppel_kuntViewController.m */,
+			);
+			name = "オッペル・クント錯視";
+			sourceTree = "<group>";
+		};
+		373C311E13350D43004F0254 /* デルブーフ錯視 */ = {
+			isa = PBXGroup;
+			children = (
+				373C311F13350D6D004F0254 /* dekboafViewController.h */,
+				373C312013350D6D004F0254 /* dekboafViewController.m */,
+				373C312213350D7E004F0254 /* delboaf.xib */,
+			);
+			name = "デルブーフ錯視";
+			sourceTree = "<group>";
+		};
+		375C82661322BF5F00104D15 /* ジャストロー */ = {
+			isa = PBXGroup;
+			children = (
+				378C29D613230BA1005B0D08 /* jastrow_2.png */,
+				375C82671322BF7400104D15 /* jastrow.png */,
+			);
+			name = "ジャストロー";
+			sourceTree = "<group>";
+		};
+		375F17EA135024AE00EDC168 /* English.Iproj */ = {
+			isa = PBXGroup;
+			children = (
+				375F17ED1350265500EDC168 /* Localizable.strings */,
+				375F17EF1350267B00EDC168 /* InfoPlist.strings */,
+			);
+			name = English.Iproj;
+			sourceTree = "<group>";
+		};
+		375F17F1135026F500EDC168 /* Japan.Iproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Japan.Iproj;
+			sourceTree = "<group>";
+		};
+		37822FFF1362A1B500DB2E29 /* トロクスラー効果 */ = {
+			isa = PBXGroup;
+			children = (
+				379FE22E13607C9E00C00C1E /* trosclerViewController.h */,
+				379FE22F13607C9E00C00C1E /* trosclerViewController.m */,
+				379FE23013607C9E00C00C1E /* trosclerViewController.xib */,
+			);
+			name = "トロクスラー効果";
+			sourceTree = "<group>";
+		};
+		3784FC42133274B40097076D /* ポンゾ錯視 */ = {
+			isa = PBXGroup;
+			children = (
+				3784FC44133274D00097076D /* ponzo.xib */,
+				3784FC46133274E70097076D /* ponzoViewController.h */,
+				3784FC47133274E70097076D /* ponzoViewController.m */,
+			);
+			name = "ポンゾ錯視";
+			sourceTree = "<group>";
+		};
+		3784FC4A133275140097076D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				379FE235136089A700C00C1E /* スクリーンショット（2011-04-22 0.48.25）.png */,
+				379FE233136083EF00C00C1E /* トロクスラー.jpg */,
+				37A64F891350B7230062CE6E /* Default@2x.png */,
+				37AF3092135DE572003C4641 /* yajirushi.png */,
+				37A64F871350B4A50062CE6E /* Default.png */,
+				37AF115A134F208B00A6DFF0 /* スクリーンショット（2011-04-08 19.51.04）.png */,
+				3792D2C41341C3A300CCD49A /* helman_1.png */,
+				3792D2C51341C3A300CCD49A /* Hermanngrid.png */,
+				37246F4F13364F5E007B2B4B /* yuudou_sen.png */,
+				37246F5013364F5E007B2B4B /* yuudou.png */,
+				373C313613351269004F0254 /* delboaf_2.png */,
+				373C312413350D90004F0254 /* delboof_left.png */,
+				373C312513350D90004F0254 /* delboof_right.png */,
+				373C310C133503DE004F0254 /* Oppel-Kundt_1.png */,
+				373C310D133503DE004F0254 /* Oppel-Kundt_figure.png */,
+				3714FB7A132299F400D30FF1 /* ヘルムホルツ */,
+				373C30A21334F67F004F0254 /* fick_upper.png */,
+				3784FC50133275400097076D /* ポンゾ錯視.png */,
+				3714FB7B13229A2300D30FF1 /* ポッゲンドルフ */,
+				3714FB8613229A4E00D30FF1 /* Parallel lines */,
+				375C82661322BF5F00104D15 /* ジャストロー */,
+				37D0BEFD13264F6F00692F8A /* はじめに */,
+				372221A91331066A006C2CAA /* エピロング */,
+				3784FC53133276E80097076D /* ポンゾ錯視_2.png */,
+				3784FC4F133275400097076D /* ponzo.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		378C2A15132380A1005B0D08 /* はじめに */ = {
+			isa = PBXGroup;
+			children = (
+				3718452C1326342000886EDA /* Beginning.xib */,
+				37184536132634D500886EDA /* BeginningViewController.h */,
+				37184537132634D500886EDA /* BeginningViewController.m */,
+			);
+			name = "はじめに";
+			sourceTree = "<group>";
+		};
+		3792D2BC1341C27900CCD49A /* ヘルマン格子錯視 */ = {
+			isa = PBXGroup;
+			children = (
+				3792D2BE1341C2AC00CCD49A /* helmanViewController.h */,
+				3792D2BF1341C2AC00CCD49A /* helmanViewController.m */,
+				3792D2C11341C2BE00CCD49A /* helman.xib */,
+			);
+			name = "ヘルマン格子錯視";
+			sourceTree = "<group>";
+		};
+		379FE22D13607C4200C00C1E /* 視覚的補完 */ = {
+			isa = PBXGroup;
+			children = (
+				378230051362A35100DB2E29 /* hokanViewController.h */,
+				378230061362A35100DB2E29 /* hokanViewController.m */,
+				378230071362A35100DB2E29 /* hokanViewController.xib */,
+			);
+			name = "視覚的補完";
+			sourceTree = "<group>";
+		};
+		37D0BEFD13264F6F00692F8A /* はじめに */ = {
+			isa = PBXGroup;
+			children = (
+				37D0BF041326540C00692F8A /* myular_liyar_sen.png */,
+				37D0BF051326540C00692F8A /* soto.png */,
+				37D0BF061326540C00692F8A /* uti.png */,
+				37D0BEFF1326500B00692F8A /* myular_liyar_lower.png */,
+				37D0BF001326500B00692F8A /* myular_liyar_upper.png */,
+			);
+			name = "はじめに";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Optical illusion-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Optical illusion-2" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Optical illusion-2";
+			productName = "Optical illusion-2";
+			productReference = 1D6058910D05DD3D006BFB54 /* Optical illusion-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 5AJXMU3W4X;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Optical illusion-2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Optical illusion-2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				3714FB5A1322919600D30FF1 /* helmholtz.xib in Resources */,
+				3714FB75132299CF00D30FF1 /* helmholtz_change_color のコピー.png in Resources */,
+				3714FB76132299CF00D30FF1 /* helmholtz_kakudo のコピー.png in Resources */,
+				3714FB77132299CF00D30FF1 /* helmholtz_mae のコピー.png in Resources */,
+				3714FB8113229A4400D30FF1 /* pokkendol-1 のコピー.png in Resources */,
+				3714FB8213229A4400D30FF1 /* pokkendol-2 のコピー.png in Resources */,
+				3714FB8313229A4400D30FF1 /* pokkendol-tate のコピー.png in Resources */,
+				3714FB8413229A4400D30FF1 /* white のコピー.png in Resources */,
+				3714FB8513229A4400D30FF1 /* white_2 のコピー.png in Resources */,
+				3714FB8B13229A7400D30FF1 /* heling のコピー.png in Resources */,
+				3714FB8C13229A7400D30FF1 /* images-2 のコピー.jpg in Resources */,
+				3714FB8D13229A7400D30FF1 /* pararel_line のコピー.png in Resources */,
+				3714FB8E13229A7400D30FF1 /* therunaer のコピー.png in Resources */,
+				3714FBA31322A77E00D30FF1 /* poggendolf.xib in Resources */,
+				3714FBDD1322B2DA00D30FF1 /* Parallel_line.xib in Resources */,
+				3714FBF81322BD6B00D30FF1 /* jastrow.xib in Resources */,
+				375C82681322BF7400104D15 /* jastrow.png in Resources */,
+				378C29D713230BA1005B0D08 /* jastrow_2.png in Resources */,
+				3718452D1326342000886EDA /* Beginning.xib in Resources */,
+				37D0BF011326500B00692F8A /* myular_liyar_lower.png in Resources */,
+				37D0BF021326500B00692F8A /* myular_liyar_upper.png in Resources */,
+				37D0BF071326540C00692F8A /* myular_liyar_sen.png in Resources */,
+				37D0BF081326540C00692F8A /* soto.png in Resources */,
+				37D0BF091326540C00692F8A /* uti.png in Resources */,
+				372221AC1331068E006C2CAA /* 240px-Mond-vergleich.svg.png in Resources */,
+				372221AD1331068E006C2CAA /* epilong.png in Resources */,
+				372221B9133107B7006C2CAA /* epilong.xib in Resources */,
+				3784FC45133274D00097076D /* ponzo.xib in Resources */,
+				3784FC51133275400097076D /* ponzo.png in Resources */,
+				3784FC52133275400097076D /* ポンゾ錯視.png in Resources */,
+				3784FC54133276E80097076D /* ポンゾ錯視_2.png in Resources */,
+				373C309F1334F3A1004F0254 /* fick.xib in Resources */,
+				373C30A41334F67F004F0254 /* fick_upper.png in Resources */,
+				373C310713350388004F0254 /* oppel_kunt.xib in Resources */,
+				373C310E133503DE004F0254 /* Oppel-Kundt_1.png in Resources */,
+				373C310F133503DE004F0254 /* Oppel-Kundt_figure.png in Resources */,
+				373C312313350D7E004F0254 /* delboaf.xib in Resources */,
+				373C312613350D90004F0254 /* delboof_left.png in Resources */,
+				373C312713350D90004F0254 /* delboof_right.png in Resources */,
+				373C313713351269004F0254 /* delboaf_2.png in Resources */,
+				37246F5113364F5E007B2B4B /* yuudou_sen.png in Resources */,
+				37246F5213364F5E007B2B4B /* yuudou.png in Resources */,
+				37246F5713364FE0007B2B4B /* yuudou.xib in Resources */,
+				3792D2C21341C2BE00CCD49A /* helman.xib in Resources */,
+				3792D2C61341C3A300CCD49A /* helman_1.png in Resources */,
+				3792D2C71341C3A300CCD49A /* Hermanngrid.png in Resources */,
+				37AF115B134F208B00A6DFF0 /* スクリーンショット（2011-04-08 19.51.04）.png in Resources */,
+				375F17EE1350265500EDC168 /* Localizable.strings in Resources */,
+				375F17F01350267B00EDC168 /* InfoPlist.strings in Resources */,
+				37A64F861350AB960062CE6E /* Icon.png in Resources */,
+				37A64F881350B4A50062CE6E /* Default.png in Resources */,
+				37A64F8A1350B7230062CE6E /* Default@2x.png in Resources */,
+				37A64F8E1350B8710062CE6E /* top_image_2.png in Resources */,
+				37AF3093135DE573003C4641 /* yajirushi.png in Resources */,
+				379FE23213607C9E00C00C1E /* trosclerViewController.xib in Resources */,
+				379FE234136083EF00C00C1E /* トロクスラー.jpg in Resources */,
+				379FE236136089A700C00C1E /* スクリーンショット（2011-04-22 0.48.25）.png in Resources */,
+				378230091362A35100DB2E29 /* hokanViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				3714FB1F1322879500D30FF1 /* OpticalViewController.m in Sources */,
+				3714FB5F132291CD00D30FF1 /* helmholtzViewController.m in Sources */,
+				3714FBA81322A79E00D30FF1 /* pokkendolfViewController.m in Sources */,
+				3714FBE21322B30600D30FF1 /* ParallellineViewController.m in Sources */,
+				3714FBF41322BD5C00D30FF1 /* jastrowViewController.m in Sources */,
+				37184538132634D500886EDA /* BeginningViewController.m in Sources */,
+				372221B3133106DE006C2CAA /* epilongViewController.m in Sources */,
+				3784FC48133274E70097076D /* ponzoViewController.m in Sources */,
+				373C309B1334F377004F0254 /* fickViewContoroller.m in Sources */,
+				373C310A133503A9004F0254 /* oppel_kuntViewController.m in Sources */,
+				373C312113350D6D004F0254 /* dekboafViewController.m in Sources */,
+				37246F5A1336506D007B2B4B /* yuudouViewController.m in Sources */,
+				3792D2C01341C2AC00CCD49A /* helmanViewController.m in Sources */,
+				379FE23113607C9E00C00C1E /* trosclerViewController.m in Sources */,
+				37DCB6D71CDDCF8200FE0D30 /* main.m in Sources */,
+				378230081362A35100DB2E29 /* hokanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Optical_illusion_2_Prefix.pch;
+				INFOPLIST_FILE = "Optical_illusion_2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.planet-meron";
+				PRODUCT_NAME = "Optical illusion-2";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Optical_illusion_2_Prefix.pch;
+				INFOPLIST_FILE = "Optical_illusion_2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.planet-meron";
+				PRODUCT_NAME = "Optical illusion-2";
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akinori Ishii (8MDZYR5AYQ)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "EDCF3393-0FEB-4B29-9BFC-99A8FEEFDEF5";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akinori Ishii (8MDZYR5AYQ)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Akinori Ishii (8MDZYR5AYQ)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "EDCF3393-0FEB-4B29-9BFC-99A8FEEFDEF5";
+				"PROVISIONING_PROFILE[sdk=*]" = "25C1F146-37AF-428C-B88F-2B11E134B3CA";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Optical illusion-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Optical illusion-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

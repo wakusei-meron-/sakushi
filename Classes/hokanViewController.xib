@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="hokanViewController">
+            <connections>
+                <outlet property="View3__1" destination="1" id="15"/>
+                <outlet property="View3__2" destination="4" id="14"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                    <rect key="frame" x="255" y="477" width="72" height="40"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="NFj-tm-LMv"/>
+                        <constraint firstAttribute="width" constant="72" id="jlf-Sx-HeM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                    <state key="normal" title="次へ">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="next3__1" destination="-1" eventType="touchUpInside" id="17"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="実際には書かれていないものでも脳が勝手にこうかかれてあるだろうと予想して補うことです" lineBreakMode="tailTruncation" numberOfLines="3" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="6">
+                    <rect key="frame" x="47" y="221" width="280" height="91"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="91" id="1hg-gI-Fzi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="視覚的補完とは" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                    <rect key="frame" x="103" y="151" width="168" height="39"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="ICb-9o-3KQ"/>
+                        <constraint firstAttribute="width" constant="168" id="KHK-aL-tCq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ちょっと例をお見せしましょう" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                    <rect key="frame" x="47" y="325" width="280" height="102"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="102" id="aiW-v7-RUh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7" firstAttribute="centerX" secondItem="6" secondAttribute="centerX" id="4HN-gj-IvQ"/>
+                <constraint firstItem="6" firstAttribute="trailing" secondItem="8" secondAttribute="trailing" id="6te-sl-yO6"/>
+                <constraint firstItem="5" firstAttribute="trailing" secondItem="8" secondAttribute="trailing" id="BeR-Y9-CR4"/>
+                <constraint firstItem="6" firstAttribute="top" secondItem="7" secondAttribute="bottom" constant="31" id="Nld-pL-8rw"/>
+                <constraint firstItem="5" firstAttribute="top" secondItem="8" secondAttribute="bottom" constant="50" id="WJL-6r-4pe"/>
+                <constraint firstItem="8" firstAttribute="top" secondItem="6" secondAttribute="bottom" constant="13" id="XU6-eF-2jn"/>
+                <constraint firstItem="8" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="sNE-9I-ABd"/>
+                <constraint firstItem="6" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="47" id="x1k-6N-TiY"/>
+                <constraint firstItem="7" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="xf0-eT-S48"/>
+                <constraint firstItem="7" firstAttribute="top" secondItem="1" secondAttribute="top" constant="151" id="ytb-66-HjN"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+        <view contentMode="scaleToFill" id="4">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="top_image_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="11">
+                    <rect key="frame" x="130" y="122" width="114" height="114"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="これはこのアプリのアイコンに使われているものです　　　　　　　　字が部分的に隠れてしまっていますが、皆さんの脳が見えない場所を予測して&quot;錯視&quot;と見えているんです" lineBreakMode="tailTruncation" numberOfLines="5" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="12">
+                    <rect key="frame" x="47" y="263" width="280" height="167"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="167" id="j6Z-5U-8pI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="これを視覚的補完といいます" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="13">
+                    <rect key="frame" x="47" y="424" width="280" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="13" firstAttribute="centerX" secondItem="4" secondAttribute="centerX" id="DCu-k9-UDk"/>
+                <constraint firstItem="12" firstAttribute="top" secondItem="11" secondAttribute="bottom" constant="27" id="N14-yV-M2m"/>
+                <constraint firstItem="11" firstAttribute="top" secondItem="4" secondAttribute="top" constant="122" id="QqK-cK-wQe"/>
+                <constraint firstItem="12" firstAttribute="leading" secondItem="4" secondAttribute="leading" constant="47" id="T6Y-0g-yRl"/>
+                <constraint firstItem="12" firstAttribute="leading" secondItem="13" secondAttribute="leading" id="aoT-5f-oOX"/>
+                <constraint firstAttribute="bottom" secondItem="13" secondAttribute="bottom" constant="222" id="hoS-vq-agO"/>
+                <constraint firstItem="11" firstAttribute="centerX" secondItem="12" secondAttribute="centerX" id="qAB-zw-otK"/>
+                <constraint firstItem="13" firstAttribute="trailing" secondItem="12" secondAttribute="trailing" id="wPJ-YI-2tR"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="top_image_2.png" width="114" height="114"/>
+    </resources>
+</document>
